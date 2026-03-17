@@ -34,19 +34,19 @@
                 message = ""; 
 
                 switch(true){
-                    case (Check <= "27"):
+                    case (Check <= 27):
                         message = "It's cool outside.";
                         break;
-                    case (Check <= "28"):
+                    case (Check >= 28 && Check <= 32):
                         message = "A lil warm today.";
                         break;
-                    case (Check <= "33"):
+                    case (Check >= 33 && Check <=37):
                         message = "Alright, starting to sweat now.";
                         break;
-                    case (Check <= "38"):
+                    case (Check >= 38 && Check <=41):
                         message = "Start turning on your air conditoners.";
                         break;
-                    case (Check >= "42"):
+                    case (Check >= 42):
                         message = "I'M BURNIN' UP!";
                         break;
                     default:
